@@ -15,7 +15,7 @@ public class FactorialWithErrorFlag {
     }
 
     public static void main(String[] args) {
-        int n = 21; // Test with n = 21 (overflow)
+        int n = 21; 
         long result = factorial(n);
         if (result == -1) {
             System.out.println("Error: Factorial overflow or invalid input.");
